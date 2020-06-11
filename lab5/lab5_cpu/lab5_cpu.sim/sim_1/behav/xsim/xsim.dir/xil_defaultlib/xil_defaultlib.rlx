@@ -1,0 +1,10 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Users/mi/Desktop/lab5_cpu/lab5_cpu.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+C:/Users/mi/Desktop/lab5_cpu/lab5_cpu.srcs/sim_1/new/tb.v,1591504272,verilog,,,,tb,,,,,,,,
+C:/Users/mi/Desktop/lab5_cpu/lab5_cpu.srcs/sources_1/ip/DataMemory/sim/DataMemory.v,1591436332,verilog,,C:/Users/mi/Desktop/lab5_cpu/lab5_cpu.srcs/sources_1/ip/InstructionMemory/sim/InstructionMemory.v,,DataMemory,,,,,,,,
+C:/Users/mi/Desktop/lab5_cpu/lab5_cpu.srcs/sources_1/ip/InstructionMemory/sim/InstructionMemory.v,1591436339,verilog,,C:/Users/mi/Desktop/lab5_cpu/lab5_cpu.srcs/sources_1/new/CPU.v,,InstructionMemory,,,,,,,,
+C:/Users/mi/Desktop/lab5_cpu/lab5_cpu.srcs/sources_1/new/CPU.v,1591743953,verilog,,C:/Users/mi/Desktop/lab5_cpu/lab5_cpu.srcs/sources_1/new/func.v,,CPU,,,,,,,,
+C:/Users/mi/Desktop/lab5_cpu/lab5_cpu.srcs/sources_1/new/func.v,1591743960,verilog,,C:/Users/mi/Desktop/lab5_cpu/lab5_cpu.srcs/sim_1/new/tb.v,,ALU;ALUControl;Control;EX_MEM_Registers;ForwardingUnit;HazardDetectionUnit;ID_EX_Registers;IF_ID_Registers;MEM_WB_Registers;Mux2_32;Mux2_5;Mux2_9;Mux3_32;PC;Registers;Sign_extend,,,,,,,,

@@ -1,0 +1,204 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Jun  4 21:06:39 2020
+# Process ID: 792
+# Current directory: C:/Users/mi/Desktop/lab5_cpu
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4572 C:\Users\mi\Desktop\lab5_cpu\lab5_cpu.xpr
+# Log file: C:/Users/mi/Desktop/lab5_cpu/vivado.log
+# Journal file: C:/Users/mi/Desktop/lab5_cpu\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mi/Desktop/lab5_cpu/lab5_cpu.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb.tcl
+close_sim
+launch_simulation
+source tb.tcl
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/pc/stall}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/cur_addr}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/Clrn}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/stall}} 
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/new_addr}} 
+relaunch_sim
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/PCSrc}} 
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/IF_instruction}} 
+relaunch_sim
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/registers/ra0}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/registers/rd0}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/registers/ra1}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/registers/rd1}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/registers/wa}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/registers/wd}} 
+relaunch_sim
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/registers/we}} 
+relaunch_sim
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/WB_RegWrite}} 
+relaunch_sim
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/ID_instruction}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/WB_MemtoReg}} 
+relaunch_sim
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/EX_ALUy}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/alu/m}} 
+relaunch_sim
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/alu/a}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/alu/b}} 
+relaunch_sim
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/forwarding/ForwardA}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/mux3}} 
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/registers/ra0}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/registers/rd0}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/ID_instruction}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/new_addr}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/cur_addr}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/PCSrc}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/jump}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/alu/a}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/alu/b}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/alu/m}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/EX_Branch}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/EX_zero}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/Clrn1}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/Clrn2}} 
+relaunch_sim
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/mux3}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
+add_bp {C:/Users/mi/Desktop/lab5_cpu/lab5_cpu.srcs/sources_1/new/func.v} 231
+relaunch_sim
+relaunch_sim
+remove_bps -file {C:/Users/mi/Desktop/lab5_cpu/lab5_cpu.srcs/sources_1/new/func.v} -line 231
+add_bp {C:/Users/mi/Desktop/lab5_cpu/lab5_cpu.srcs/sources_1/new/func.v} 231
+remove_bps -file {C:/Users/mi/Desktop/lab5_cpu/lab5_cpu.srcs/sources_1/new/func.v} -line 231
+relaunch_sim
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/WB_RegWrite}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/WB_Rd}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/MEM_RegWrite}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/MEM_Rd}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/EX_Rd}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/EX_Rs}} 
+relaunch_sim
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/ForwardA}} 
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/ID_Rs}} 
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/registers/ra0}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/registers/rd0}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/registers/ra1}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/registers/rd1}} 
+relaunch_sim
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/ram/a}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/ram/d}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/ram/spo}} 
+current_wave_config {Untitled 2}
+log_wave {/tb/cpu/ram/we} 
+current_wave_config {Untitled 2}
+add_wave {{/tb/cpu/ram/we}} 
+relaunch_sim
+close_sim
+launch_simulation
+source tb.tcl
+current_wave_config {Untitled 3}
+add_wave {{/tb/cpu/IF_instruction}} 
+current_wave_config {Untitled 3}
+add_wave {{/tb/cpu/ID_instruction}} 
+relaunch_sim
+set_property -dict [list CONFIG.coefficient_file {C:/Users/mi/Desktop/lab5_cpu/ins.coe}] [get_ips InstructionMemory]
+set_property -dict [list CONFIG.coefficient_file {C:/Users/mi/Desktop/lab5_cpu/data.coe}] [get_ips DataMemory]
+relaunch_sim
+close_sim
