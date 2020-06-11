@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu May 28 06:44:29 2020
+# Process ID: 7660
+# Current directory: C:/Users/mi/Desktop/lab4_cpu
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10456 C:\Users\mi\Desktop\lab4_cpu\lab4_cpu.xpr
+# Log file: C:/Users/mi/Desktop/lab4_cpu/vivado.log
+# Journal file: C:/Users/mi/Desktop/lab4_cpu\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mi/Desktop/lab4_cpu/lab4_cpu.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb.tcl
+current_wave_config {Untitled 1}
+add_wave {{/tb/cpu/instruction}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb/cpu/MemWriteData}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb/cpu/MemWrite}} 
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/tb/cpu/MemAddr}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb/cpu/MemData}} 
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/tb/cpu/RegWriteData}} 
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/tb/cpu/B}} 
+relaunch_sim
+close_sim

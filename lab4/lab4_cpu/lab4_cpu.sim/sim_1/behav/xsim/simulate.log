@@ -1,0 +1,4 @@
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+$finish called at time : 1 us : File "C:/Users/mi/Desktop/lab4_cpu/lab4_cpu.srcs/sim_1/new/tb.v" Line 22

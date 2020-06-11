@@ -1,0 +1,9 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Users/mi/Desktop/lab4_cpu/lab4_cpu.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+C:/Users/mi/Desktop/lab4_cpu/lab4_cpu.srcs/sim_1/new/tb.v,1589594962,verilog,,,,tb,,,,,,,,
+C:/Users/mi/Desktop/lab4_cpu/lab4_cpu.srcs/sources_1/ip/dist_mem_gen_0/sim/dist_mem_gen_0.v,1589596479,verilog,,C:/Users/mi/Desktop/lab4_cpu/lab4_cpu.srcs/sources_1/new/cpu.v,,dist_mem_gen_0,,,,,,,,
+C:/Users/mi/Desktop/lab4_cpu/lab4_cpu.srcs/sources_1/new/cpu.v,1590620107,verilog,,C:/Users/mi/Desktop/lab4_cpu/lab4_cpu.srcs/sources_1/new/func.v,,cpu,,,,,,,,
+C:/Users/mi/Desktop/lab4_cpu/lab4_cpu.srcs/sources_1/new/func.v,1589771484,verilog,,C:/Users/mi/Desktop/lab4_cpu/lab4_cpu.srcs/sim_1/new/tb.v,,ALU;ALUControl;Control;Instruction;Mux32;Mux3_32;Mux4_32;Mux5;PC;Register;Registers;Sign_extend,,,,,,,,

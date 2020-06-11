@@ -32,7 +32,7 @@ wire [2 : 0] ALUm;
 wire [31 : 0] extendImm, SHIFT1;
 wire [31 : 0] JumpAddr;
 
-// ä¿¡å· ä»å·¦åˆ°å³è¿çº¿
+// ĞÅºÅ ´Ó×óµ½ÓÒÁ¬Ïß
 assign PCwe = (zero&PCWriteCond)|PCWrite;
 assign Op = instruction[31 : 26];
 assign ReadReg1 = instruction[25 : 21];
@@ -123,11 +123,11 @@ Mux32 mux0(
 
 // DataMemory 512*32
 dist_mem_gen_0 dist0 (
-  .a(MemAddr[10 : 2]),  // input wire [8 : 0]  åœ°å€
-  .d(B),     // input wire [31 : 0] d å†™æ•°æ®
+  .a(MemAddr[10 : 2]),  // input wire [8 : 0]  µØÖ·
+  .d(B),     // input wire [31 : 0] d Ğ´Êı¾İ
   .clk(clk),         // input wire clk
-  .we(MemWrite),     // input wire we å†™ä½¿èƒ½
-  .spo(MemData)  // output wire [31 : 0] spo è¯»æ•°æ®
+  .we(MemWrite),     // input wire we Ğ´Ê¹ÄÜ
+  .spo(MemData)  // output wire [31 : 0] spo ¶ÁÊı¾İ
 );
 
 /*
@@ -171,17 +171,17 @@ Mux32 mux2(
 );
 
 /*
-module Registers				//32 x WIDTHå¯„å­˜å™¨å †
-#(parameter WIDTH = 32) 	        //æ•°æ®å®½åº¦
+module Registers				//32 x WIDTH¼Ä´æÆ÷¶Ñ
+#(parameter WIDTH = 32) 	        //Êı¾İ¿í¶È
 (
-    input clk,						//æ—¶é’Ÿï¼ˆä¸Šå‡æ²¿æœ‰æ•ˆï¼‰
-    input [4:0] ra0,				//è¯»ç«¯å£0åœ°å€
-    output reg [WIDTH-1:0] rd0,    	    //è¯»ç«¯å£0æ•°æ®
-    input [4:0] ra1, 				//è¯»ç«¯å£1åœ°å€
-    output reg [WIDTH-1:0] rd1,      	//è¯»ç«¯å£1æ•°æ®
-    input [4:0] wa, 				//å†™ç«¯å£åœ°å€
-    input we,				    	//å†™ä½¿èƒ½ï¼Œé«˜ç”µå¹³æœ‰æ•ˆ
-    input [WIDTH-1:0] wd 	    	//å†™ç«¯å£æ•°æ®
+    input clk,						//Ê±ÖÓ£¨ÉÏÉıÑØÓĞĞ§£©
+    input [4:0] ra0,				//¶Á¶Ë¿Ú0µØÖ·
+    output reg [WIDTH-1:0] rd0,    	    //¶Á¶Ë¿Ú0Êı¾İ
+    input [4:0] ra1, 				//¶Á¶Ë¿Ú1µØÖ·
+    output reg [WIDTH-1:0] rd1,      	//¶Á¶Ë¿Ú1Êı¾İ
+    input [4:0] wa, 				//Ğ´¶Ë¿ÚµØÖ·
+    input we,				    	//Ğ´Ê¹ÄÜ£¬¸ßµçÆ½ÓĞĞ§
+    input [WIDTH-1:0] wd 	    	//Ğ´¶Ë¿ÚÊı¾İ
 );*/
 Registers registers(
     .clk(clk),
@@ -255,13 +255,13 @@ ALUControl alu_control(
 
 /*
 module ALU
-#(parameter WIDTH = 32) 	//æ•°æ®å®½åº¦
-(output reg [WIDTH-1:0] y, 		//è¿ç®—ç»“æœ
-output reg zf, 					//é›¶æ ‡å¿—
-output reg cf, 					//è¿›ä½/å€Ÿä½æ ‡å¿—
-output reg of, 					//æº¢å‡ºæ ‡å¿—
-input [WIDTH-1:0] a, b,		//ä¸¤æ“ä½œæ•°
-input [2:0] m		    	//æ“ä½œç±»å‹
+#(parameter WIDTH = 32) 	//Êı¾İ¿í¶È
+(output reg [WIDTH-1:0] y, 		//ÔËËã½á¹û
+output reg zf, 					//Áã±êÖ¾
+output reg cf, 					//½øÎ»/½èÎ»±êÖ¾
+output reg of, 					//Òç³ö±êÖ¾
+input [WIDTH-1:0] a, b,		//Á½²Ù×÷Êı
+input [2:0] m		    	//²Ù×÷ÀàĞÍ
 );*/
 ALU alu(
     .y(ALUresult),
