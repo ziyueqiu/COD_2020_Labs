@@ -1,0 +1,11 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Users/mi/Desktop/lab6_design/lab6_design.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+C:/Users/mi/Desktop/lab6_design/lab6_design.srcs/sim_1/new/tb.v,1594197661,verilog,,,,tb,,,,,,,,
+C:/Users/mi/Desktop/lab6_design/lab6_design.srcs/sources_1/ip/RAM/sim/RAM.v,1594127482,verilog,,C:/Users/mi/Desktop/lab6_design/lab6_design.srcs/sources_1/ip/ROM/sim/ROM.v,,RAM,,,,,,,,
+C:/Users/mi/Desktop/lab6_design/lab6_design.srcs/sources_1/ip/ROM/sim/ROM.v,1594197048,verilog,,C:/Users/mi/Desktop/lab6_design/lab6_design.srcs/sources_1/new/bus.v,,ROM,,,,,,,,
+C:/Users/mi/Desktop/lab6_design/lab6_design.srcs/sources_1/new/bus.v,1594130860,verilog,,C:/Users/mi/Desktop/lab6_design/lab6_design.srcs/sources_1/new/func.v,,bus,,,,,,,,
+C:/Users/mi/Desktop/lab6_design/lab6_design.srcs/sources_1/new/func.v,1594127154,verilog,,C:/Users/mi/Desktop/lab6_design/lab6_design.srcs/sources_1/new/singleCPU.v,,ALU;ALUControl;Control;Mux32;Mux5;PC;Registers;Sign_extend,,,,,,,,
+C:/Users/mi/Desktop/lab6_design/lab6_design.srcs/sources_1/new/singleCPU.v,1594128425,verilog,,C:/Users/mi/Desktop/lab6_design/lab6_design.srcs/sim_1/new/tb.v,,cpu_one_cycle,,,,,,,,
